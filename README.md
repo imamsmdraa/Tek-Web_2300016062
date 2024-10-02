@@ -1,3 +1,10 @@
-# TekWeb 2024 UAD
-Sagara imam Samudra
-(2300016062)_A
+# Teknologi Web 2024
+## Tugas Matakuliah Teknologi WEB
+
+### Detail
+- Nama   : Sagara imam samudra
+- Nim    : 2300016062
+- Kelas  : A
+
+### List of Asignment Web Link
+- praktikum_1()
