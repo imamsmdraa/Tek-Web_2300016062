@@ -6,5 +6,5 @@
 - Nim    : 2300016062
 - Kelas  : A
 
-### List of Asignment Web Link
+### TEKWEB Assigment Submission List
 - praktikum_1()
