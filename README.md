@@ -7,4 +7,4 @@
 - Kelas  : A
 
 ### TEKWEB Assigment Submission List
-- praktikum_1 ( https://secondgar.github.io/praktikum_1_tekweb/ )
+- praktikum_1 (https://imamsmdraa.github.io/Tek-Web_2300016062/Praktikum_1/)
