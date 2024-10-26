@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dynamic Page by guwah</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;700&display=swap" rel="stylesheet">
+  
+</head>
+<body>
+    <div class="navbar">
+        <img src="" alt="">
+    </div>
+    <div>
+        <h1>Dynamic Page guwah</h1>
+        <div class="intro">
+            <ul>
+                <li>Sagara imam samudra</li>
+                <li>2300016062</li>
+                <li>kelas (teori A, prak B)</li>
+            </ul>
+        </div>
+
+        <label for="bgColor">Change Background Color:</label>
+        <select id="bgColor">
+            <option value="white">White</option>
+            <option value="#31511E">Hijau tua</option>
+            <option value="#87CEEB">biru langit</option>
+            <option value="#98FB98">hijau muda</option>
+            <option value="#FFA07A">merah muda</option>
+            <option value="#DDA0DD">ungu janda</option>
+            <option value="#F0E68C">kuning ta1kk</option>
+            <option value="#FFB6C1">pink chaaya</option>
+            <option value="#B8860B">emas</option>
+        </select>
+
+        <br><br>
+
+        <label for="fontSize">Change Font Size:</label>
+        <div class="font-size-controls">
+            <button class="size-btn" id="decreaseFont">-</button>
+            <span class="font-size-display" id="currentSize">16</span>px
+            <button class="size-btn" id="increaseFont">+</button>
+        </div>
+
+        <br><br>
+
+        <button id="toggleDarkMode">Toggle Dark Mode</button>
+
+        <br><br>
+
+        <label for="fontStyle">Change Font Style:</label>
+        <select id="fontStyle">
+            <option value="sans-serif">Sans-Serif</option>
+            <option value="serif">Serif</option>
+            <option value="'Helvetica Neue', Arial">Helvetica</option>
+            <option value="'Courier New', Courier">Courier New</option>
+            <option value="'Times New Roman', Times">Times New Roman</option>
+            <option value="Georgia, serif">Georgia</option>
+            <option value="'Trebuchet MS', sans-serif">Trebuchet MS</option>
+
+            <!-- jepang by guwah -->
+            <option value="'Noto Sans JP', sans-serif">Noto Sans Japanese</option>
+            <option value="'Hiragino Kaku Gothic ProN', sans-serif">Hiragino Kaku Gothic</option>
+            
+        </select>
+
+        <h1>To-Do List</h1>
+        <input type="text" id="taskInput" placeholder="Enter a new task">
+        <button onclick="addTask()">Add Task</button>
+        <ul id="taskList"></ul>
+
+        <p>guna memenuhi tugas tekweb</p>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
